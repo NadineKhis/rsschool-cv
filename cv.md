@@ -4,7 +4,6 @@ Nadia Khismatullina
 e-mail: torontino123@gmail.com
 tg: [@NadineKhis](https://t.me/NadineKhis)
 
--------------------    
 ### Summary
 As long as I can remember when something didn't work, they called me for help. I feel a constant need for knowledge, so I think that programming is perfect for me. I started to learn it a year ago. I absolutely love the feeling of professional growth. My goal is to become a lead front-end developer and be in charge of the team.
 
