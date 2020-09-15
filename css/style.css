@@ -1,13 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
-
-/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;400;700&display=swap');*/
 
 body {
-    background-color: hsl(0, 0%, 98%);
-    font-family: 'Poppins', 'sans-serif';
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', 'sans-serif';
 }
 
 #container {
-    max-width: 1024px;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: /* 1 */ auto /* 2 */ 1fr;
+  grid-template-rows: /* 3 */ auto /* 4 */ 1fr /* 5 */ auto;
+  max-width: 1024px;
+  position: relative;
+  margin: 0 auto;
+}
 
+.left-track {
+  display: grid;
+  grid-gap: 1vw;
+  background-color: #fdd4d0;
+  color: #423735;
+  font-size: 14px
+}
+
+.left-track img {
+  border-radius: 50%;
+  border: 10px solid #fafafa;
+  margin: 3vw auto auto auto;
+  /*margin-left: -50%;*/
+  position: relative;
+
+}
+
+.left-track #personal {
+  padding: 20px;
+}
+
+.left-track #skills {
+  padding: 20px;
+}
+
+.left-track #interest {
+  padding: 20px;
+}
+
+.left-track #contact {
+  padding: 20px;
+}
+
+.right-track {
+  display: grid;
+  grid-gap: 1vw;
+}
+
+.right-track #header-name {
+  height: 230px;
+  background-color: #6a7378;
+  color: #fafafa;
+}
+
+#header-name h1,
+#header-name h2 {
+  font-size: 2.5em;
+  margin: 5vw auto auto auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#header-name h2 {
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.description {
+  display: grid;
+}
+
+.description h2 {
+  color: #fafafa;
+  background-color: #6a7378;
+  padding: 8px;
 }
