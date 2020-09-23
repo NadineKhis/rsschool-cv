@@ -1,0 +1,113 @@
+body {
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+#container {
+  position: relative;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: /* 1 */ auto /* 2 */ 1fr;
+  grid-template-rows: /* 3 */ auto /* 4 */ 1fr /* 5 */ auto;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.left-track {
+  display: grid;
+  grid-gap: 1vw;
+  margin: auto;
+  background-color: #fdd4d0;
+  color: #404344;
+}
+
+.left-track h2 {
+  letter-spacing: 3px;
+}
+
+.left-track hr {
+  height: 2px;
+  margin-left: 0;
+  background-color: gray;
+  color: gray;
+  border: none;
+}
+
+.left-track img {
+  height: 200px;
+  position: relative;
+  margin: 3vw auto auto auto;
+  border: 10px solid #fafafa;
+  border-radius: 50%;
+}
+
+.left-track table {
+  border-collapse: collapse;
+}
+
+.left-track td {
+  padding: 3px;
+}
+
+.left-track #personal {
+  padding: 20px 20px 0 20px;
+}
+
+.left-track #skills {
+  padding: 0 20px 0 20px;
+}
+
+.left-track #interest {
+  padding: 0 20px 0 20px;
+  letter-spacing: 1px;
+}
+
+.left-track #contact {
+  padding: 0 20px 20px 20px;
+}
+
+.right-track {
+  display: grid;
+  grid-template-rows: 280px 300px 300px;
+  grid-gap: 1vw;
+}
+
+.right-track h2 {
+  letter-spacing: 3px;
+}
+
+.right-track #header-name {
+  height: 280px;
+  background-color: #6a7378;
+  color: #fafafa;
+}
+
+#header-name h1,
+#header-name h2 {
+  margin: 5vw auto auto auto;
+  font-size: 2.5em;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#header-name h2 {
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.description {
+  display: grid;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.description h2 {
+  padding: 8px;
+  background-color: #6a7378;
+  color: #fafafa;
+}
+
+#education {
+  display: grid;
+}
